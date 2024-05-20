@@ -1,0 +1,17 @@
+goos: linux
+goarch: amd64
+pkg: primes/blumblumshub
+cpu: 12th Gen Intel(R) Core(TM) i5-12600K
+BenchmarkBBS_Next/bits_40-16         	 3802029	      6273 ns/op	    7082 B/op	     123 allocs/op
+BenchmarkBBS_Next/bits_56-16         	 2728155	      8795 ns/op	    9896 B/op	     171 allocs/op
+BenchmarkBBS_Next/bits_80-16         	 1925379	     12527 ns/op	   14165 B/op	     243 allocs/op
+BenchmarkBBS_Next/bits_128-16        	 1204756	     19899 ns/op	   22606 B/op	     387 allocs/op
+BenchmarkBBS_Next/bits_168-16        	  924590	     26119 ns/op	   29665 B/op	     507 allocs/op
+BenchmarkBBS_Next/bits_224-16        	  683162	     34984 ns/op	   39522 B/op	     675 allocs/op
+BenchmarkBBS_Next/bits_256-16        	  582843	     39756 ns/op	   45149 B/op	     771 allocs/op
+BenchmarkBBS_Next/bits_512-16        	  303840	     79565 ns/op	   90235 B/op	    1539 allocs/op
+BenchmarkBBS_Next/bits_1024-16       	  150237	    159181 ns/op	  180408 B/op	    3075 allocs/op
+BenchmarkBBS_Next/bits_2048-16       	   76021	    320337 ns/op	  360751 B/op	    6147 allocs/op
+BenchmarkBBS_Next/bits_4096-16       	   37566	    637625 ns/op	  721468 B/op	   12292 allocs/op
+PASS
+ok  	primes/blumblumshub	324.662s

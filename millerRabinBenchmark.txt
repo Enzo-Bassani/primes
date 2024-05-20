@@ -1,0 +1,25 @@
+goos: linux
+goarch: amd64
+pkg: primes/millerrabin
+cpu: 12th Gen Intel(R) Core(TM) i5-12600K
+BenchmarkIsPrime/bits_40-16         	      10	     53499 ns/op	   13038 B/op	     521 allocs/op
+BenchmarkIsPrime/bits_56-16         	      10	    188038 ns/op	   21112 B/op	     879 allocs/op
+BenchmarkIsPrime/bits_80-16         	      10	    266161 ns/op	  101947 B/op	    1944 allocs/op
+BenchmarkIsPrime/bits_128-16        	      10	    276201 ns/op	  100908 B/op	    1903 allocs/op
+BenchmarkIsPrime/bits_168-16        	      10	    948973 ns/op	  205074 B/op	    3094 allocs/op
+BenchmarkIsPrime/bits_224-16        	      10	   1223971 ns/op	  242723 B/op	    3238 allocs/op
+BenchmarkIsPrime/bits_256-16        	      10	   2599476 ns/op	  449716 B/op	    5969 allocs/op
+BenchmarkIsPrime/bits_512-16        	      10	  10278598 ns/op	  956760 B/op	    7884 allocs/op
+BenchmarkIsPrime/bits_1024-16       	      10	  77843533 ns/op	 2461671 B/op	   11511 allocs/op
+BenchmarkIsPrime/bits_2048-16       	      10	1577075510 ns/op	14555378 B/op	   35527 allocs/op
+BenchmarkIsPrime/bits_4096-16       	      10	32980570081 ns/op	74925236 B/op	   92053 allocs/op
+Total iterations:  44519
+
+tested numbers:  84315
+
+oddNumbersTested:  42220
+
+Average iterations:  1
+
+PASS
+ok  	primes/millerrabin	362.041s

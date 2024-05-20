@@ -1,0 +1,17 @@
+goos: linux
+goarch: amd64
+pkg: primes/linearcongruentialgenerator
+cpu: 12th Gen Intel(R) Core(TM) i5-12600K
+BenchmarkLCG_Next/bits_40-16         	580515842	        40.88 ns/op	      48 B/op	       3 allocs/op
+BenchmarkLCG_Next/bits_56-16         	584037069	        41.32 ns/op	      48 B/op	       3 allocs/op
+BenchmarkLCG_Next/bits_80-16         	435251934	        54.04 ns/op	      96 B/op	       3 allocs/op
+BenchmarkLCG_Next/bits_128-16        	417173620	        57.48 ns/op	      96 B/op	       3 allocs/op
+BenchmarkLCG_Next/bits_168-16        	329220636	        73.22 ns/op	     120 B/op	       3 allocs/op
+BenchmarkLCG_Next/bits_224-16        	308776336	        77.81 ns/op	     128 B/op	       3 allocs/op
+BenchmarkLCG_Next/bits_256-16        	311516523	        77.52 ns/op	     128 B/op	       3 allocs/op
+BenchmarkLCG_Next/bits_512-16        	196925346	       122.1 ns/op	     192 B/op	       3 allocs/op
+BenchmarkLCG_Next/bits_1024-16       	100000000	       212.2 ns/op	     320 B/op	       3 allocs/op
+BenchmarkLCG_Next/bits_2048-16       	60080668	       393.4 ns/op	     576 B/op	       3 allocs/op
+BenchmarkLCG_Next/bits_4096-16       	31599486	       763.9 ns/op	    1120 B/op	       3 allocs/op
+PASS
+ok  	primes/linearcongruentialgenerator	317.153s

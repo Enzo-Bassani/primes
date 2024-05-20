@@ -1,0 +1,25 @@
+goos: linux
+goarch: amd64
+pkg: primes/fermat
+cpu: 12th Gen Intel(R) Core(TM) i5-12600K
+BenchmarkIsPrime/bits_40-16         	      10	     59504 ns/op	    9524 B/op	     391 allocs/op
+BenchmarkIsPrime/bits_56-16         	      10	     96801 ns/op	   15093 B/op	     654 allocs/op
+BenchmarkIsPrime/bits_80-16         	      10	    248568 ns/op	   95437 B/op	    1997 allocs/op
+BenchmarkIsPrime/bits_128-16        	      10	    275100 ns/op	   94432 B/op	    1975 allocs/op
+BenchmarkIsPrime/bits_168-16        	      10	    713376 ns/op	  178000 B/op	    3090 allocs/op
+BenchmarkIsPrime/bits_224-16        	      10	   1346343 ns/op	  209058 B/op	    3171 allocs/op
+BenchmarkIsPrime/bits_256-16        	      10	   2131599 ns/op	  376658 B/op	    5757 allocs/op
+BenchmarkIsPrime/bits_512-16        	      10	   9647596 ns/op	  785860 B/op	    7585 allocs/op
+BenchmarkIsPrime/bits_1024-16       	      10	  64609063 ns/op	 1963264 B/op	   10991 allocs/op
+BenchmarkIsPrime/bits_2048-16       	      10	1293463060 ns/op	11425909 B/op	   33638 allocs/op
+BenchmarkIsPrime/bits_4096-16       	      10	26861361636 ns/op	58162592 B/op	   87139 allocs/op
+Total iterations:  44519
+
+tested numbers:  84315
+
+oddNumbersTested:  42220
+
+Average iterations:  1
+
+PASS
+ok  	primes/fermat	294.734s
